@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.edumaravill</groupId>
-    <artifactId>BasicConnectionJDBCwithJava</artifactId>
+    <artifactId>basicconnectionJDBCwithJava</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>

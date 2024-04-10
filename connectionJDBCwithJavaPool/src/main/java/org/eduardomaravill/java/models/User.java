@@ -2,20 +2,21 @@ package org.eduardomaravill.java.models;
 
 import java.time.LocalDateTime;
 
-public class Users {
+public class User {
 
     private Long id;
     private String username;
     private String password;
     private LocalDateTime dateTime;
 
-    public Users() {
+    public User() {
+        this.dateTime = LocalDateTime.now();
     }
 
-    public Users(String username, String password) {
+    public User(String username, String password) {
+        this();
         this.username = username;
         this.password = password;
-        this.dateTime = LocalDateTime.now();
     }
 
     public Long getId() {
